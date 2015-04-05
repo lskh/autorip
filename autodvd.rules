@@ -1,0 +1,3 @@
+# DVD_RW_AD-7260S (pci-0000:00:0a.0-scsi-3:0:0:0)
+SUBSYSTEM=="block", ENV{ID_CDROM}=="?*", ENV{ID_PATH}=="pci-0000:00:0a.0-scsi-3:0:0:0", ATTR{events_poll_msecs}="2000", ACTION=="change", RUN+="/usr/local/bin/detectdisk.sh" 
+
