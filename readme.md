@@ -1,6 +1,6 @@
 # Simple Autoripper
 
-His is a set of scripts I set up for my Media Box running Debian 7.
+This is a set of scripts I set up for my Media Box running Debian 7.
 Any type of CD or DVD should be copied or 
 
 ## Dependencies
